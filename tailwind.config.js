@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        logoGreen: "#497429",
-        logoGreenHover: "#5b9133",
+        logoBlue: "#26328c",
+        logoGold: "#b4aa89",
         ButtonBlackHover: "#374151",
       },
     },
