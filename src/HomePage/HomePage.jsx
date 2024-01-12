@@ -8,6 +8,7 @@ import FeeBenchmark from "./FeeBenchmark";
 import EmbraceData from "./EmbraceData";
 import Outcomes from "./Outcomes";
 import Leverage from "./Leverage";
+import Advisor from "./Advisor";
 import Footer from "./Footer";
 
 const HomePage = () => {
@@ -23,6 +24,7 @@ const HomePage = () => {
       <EmbraceData />
       <Outcomes />
       <Leverage />
+      <Advisor />
       <Footer />
     </>
   );
