@@ -4,7 +4,7 @@ const EmbraceData = () => {
   return (
     <div>
       <div className="pb-12 max-w-5xl mx-auto">
-        <p className=" text-slate-500 text-xl pb-5">
+        <p className="text-slate-500 text-xl pb-5">
           What Helps Make a Great Retirement Plan?
         </p>
         <h1 className="font-semibold text-4xl pb-8">
