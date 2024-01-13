@@ -1,7 +1,6 @@
 import "./App.css";
-import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import HomePage from "./Homepage/HomePage";
+import HomePage from "./Homepage/HomePage.jsx";
 
 function NotFound() {
   return (
