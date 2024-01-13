@@ -15,7 +15,7 @@ const Header = () => {
         style={waveStyles}
       >
         <img className="mx-auto px-5" src={Logo} alt="JMJ Retirement Logo" />
-        <h1 className="text-center px-5 text-2xl md:text-3xl lg:text-4xl text-logoGold">
+        <h1 className="text-center px-5 text-2xl md:text-3xl lg:text-4xl text-logoBlue">
           We Help Companies Build Great Retirement Plans
         </h1>
       </div>
