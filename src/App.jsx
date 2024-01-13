@@ -24,24 +24,12 @@ function NotFound() {
 }
 
 function App() {
-  const [showModal, setShowModal] = useState(false);
-
-  const openModal = () => {
-    setShowModal(true);
-  };
-
-  const closeModal = () => {
-    setShowModal(false);
-  };
-
   return (
     <>
-      {/* <Navbar /> */}
       <Routes>
-        <Route exact path="/" element={<HomePage openModal={openModal} />} />
+        <Route exact path="/" element={<HomePage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      {/* <Footer /> */}
     </>
   );
 }
