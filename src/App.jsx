@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
-import HomePage from "./Homepage/HomePage.jsx";
+import HomePage from "./HomePage/HomePageFile.jsx";
 
 function NotFound() {
   return (
