@@ -8,13 +8,13 @@ import Leaves from "../assets/leaves.jpg";
 const Roadmap = () => {
   return (
     <div>
-      <div className="pt-12 pb-4 max-w-5xl mx-auto">
-        <h1 className="font-semibold text-3xl pb-12">
+      <div className="pt-12 pb-4 max-w-5xl mx-auto px-5">
+        <h1 className="font-semibold text-center sm:text-left text-2xl sm:text-3xl pb-6 sm:pb-12">
           OUR 5-STEP SERVICE ROADMAP
         </h1>
-        <div className="flex flex-row">
-          <div className="w-1/5 text-white">
-            <img className="h-36 mx-auto" src={Shovel} alt="grow" />
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-0">
+          <div className="sm:w-1/5 text-white">
+            <img className="h-28 sm:h-36 mx-auto" src={Shovel} alt="grow" />
             <div className="bg-[#3177C1] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Initial Discovery</h3>
               <p>
@@ -25,8 +25,8 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="w-1/5 text-white">
-            <img className="h-36 mx-auto" src={Sand} alt="grow" />
+          <div className="sm:w-1/5 text-white">
+            <img className="h-28 sm:h-36 mx-auto" src={Sand} alt="grow" />
             <div className="bg-[#808080] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Analyze</h3>
               <p>
@@ -42,8 +42,8 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="w-1/5 text-white">
-            <img className="h-36 mx-auto" src={Water} alt="grow" />
+          <div className="sm:w-1/5 text-white">
+            <img className="h-28 sm:h-36 mx-auto" src={Water} alt="grow" />
             <div className="bg-blue-500 h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Strategize</h3>
               <p>
@@ -55,8 +55,8 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="w-1/5 text-white">
-            <img className="h-36 mx-auto" src={Plant} alt="grow" />
+          <div className="sm:w-1/5 text-white">
+            <img className="h-28 sm:h-36 mx-auto" src={Plant} alt="grow" />
             <div className="bg-blue-300 h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Implement</h3>
               <p>
@@ -65,8 +65,8 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="w-1/5 text-white">
-            <img className="h-36 mx-auto" src={Grow} alt="grow" />
+          <div className="sm:w-1/5 text-white">
+            <img className="h-28 sm:h-36 mx-auto" src={Grow} alt="grow" />
             <div className="bg-blue-400 h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">MONITOR & DOCUMENT</h3>
               <p>
@@ -83,7 +83,7 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <p className="pt-4">
+        <p className="pt-6 sm:pt-4">
           In many cases, we can make a few initial recommendations that will
           immediately improve plan performance without necessitating a change in
           recordkeeper — providing minimal disruption to you and your employees.

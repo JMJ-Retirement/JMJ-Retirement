@@ -29,15 +29,18 @@ const Advisor = () => {
       </div>
       <div className="flex flex-col">
         <img
-          className="outline max-w-5xl mx-auto z-10"
+          className="w-4/5 sm:w-auto outline max-w-5xl mx-auto z-10"
           src={Fiduciary}
           alt="Fee Benchmark"
         />
-        <p className="max-w-5xl mx-auto z-10 bg-blue-400 p-5 mt-8 text-xl text-white italic">
+        <p className="max-w-5xl mx-auto z-10 bg-blue-400 p-5 mt-8 sm:text-xl text-base text-white italic">
           As fiduciaries, we are contractually and legally obligated to serve in
           the best interest of our clients, with no conflicts of interest.
         </p>
-        <div className="h-[400px] mt-[-300px] z-0" style={TreePic}></div>
+        <div
+          className="h-[250px] mt-[-200px] z-0 sm:h-[400px] sm:mt-[-300px]"
+          style={TreePic}
+        ></div>
       </div>
     </div>
   );
