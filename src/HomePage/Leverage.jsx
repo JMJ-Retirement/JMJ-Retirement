@@ -3,16 +3,16 @@ import Compass from "../assets/compass.png";
 const Leverage = () => {
   return (
     <div>
-      <div className="pt-12 pb-4 max-w-5xl mx-auto">
-        <h4 className="text-slate-500 text-xl pb-5">
+      <div className="pt-12 pb-4 max-w-5xl mx-auto px-5">
+        <h4 className="text-slate-500 text-lg sm:text-xl pb-5">
           What Helps Make a Great Retirement Plan?
         </h4>
-        <h1 className="font-semibold text-5xl pb-10">
+        <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl pb-10">
           Leverage a financial wellness program that delivers practical answers
           to the questions and challenges your employees have right now.
         </h1>
-        <div className="flex flex-row gap-14 pb-10">
-          <ul className="list-disc flex flex-col gap-4 pl-5">
+        <div className="flex flex-col-reverse items-center sm:items-start sm:flex-row gap-6 sm:gap-14 pb-6 sm:pb-10">
+          <ul className="list-disc flex flex-col gap-2 sm:gap-4 pl-5">
             <li>I’m drowning in credit card debt. How do I pay it off?</li>
             <li>
               I want to plan ahead for my kids’ college education. Where do I
@@ -33,14 +33,14 @@ const Leverage = () => {
               help?
             </li>
           </ul>
-          <img className="w-72" src={Compass} alt="compass" />
+          <img className="w-60 sm:w-72" src={Compass} alt="compass" />
         </div>
-        <p className="pb-12">
+        <p className="pb-6 sm:pb-12">
           By providing answers to questions like these, Your Money Line helps
           your employees find the right balance with regard to achieving all
           their financial goals, including retirement.
         </p>
-        <img className="w-72 mx-auto" src={Compass} alt="compass" />
+        <img className="w-60 sm:w-72 mx-auto" src={Compass} alt="compass" />
       </div>
     </div>
   );

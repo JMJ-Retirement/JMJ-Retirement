@@ -6,20 +6,19 @@ const Advisor = () => {
     backgroundImage: `url(${Trees})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    backgroundAttachment: "fixed",
   };
 
   return (
-    <div className="pt-12 pb-4">
-      <div className="pb-12 max-w-5xl mx-auto">
-        <p className=" text-slate-500 text-xl pb-5">
+    <div className="pt-4 sm:pt-12 pb-4">
+      <div className="pb-8 sm:pb-12 max-w-5xl mx-auto px-5">
+        <p className=" text-slate-500 text-lg sm:text-xl pb-5">
           What Helps Make a Great Retirement Plan?
         </p>
-        <h1 className="font-semibold text-4xl pb-8">
+        <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl pb-6 sm:pb-8">
           Lean on your advisor to help reduce the fiduciary liability you face
           with regard to selecting, monitoring and managing plan investments.
         </h1>
-        <p className="text-lg">
+        <p className="text-base sm:text-lg">
           As a 3(21) or 3(38) fiduciary, we help plan sponsors by taking on the
           heavy lifting of researching, selecting, monitoring and—as
           necessary—adding or replacing funds in your plan’s line-up. Below is
@@ -38,7 +37,7 @@ const Advisor = () => {
           the best interest of our clients, with no conflicts of interest.
         </p>
         <div
-          className="h-[250px] mt-[-200px] z-0 sm:h-[400px] sm:mt-[-300px]"
+          className="h-[250px] mt-[-200px] z-0 sm:h-[400px] sm:mt-[-300px] md:bg-fixed"
           style={TreePic}
         ></div>
       </div>

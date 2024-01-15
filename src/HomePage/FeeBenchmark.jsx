@@ -6,11 +6,10 @@ const FeeBenchmark = () => {
     backgroundImage: `url(${Trees})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    backgroundAttachment: "fixed",
   };
 
   return (
-    <div className="pt-12 pb-4">
+    <div className="pt-4 sm:pt-12 pb-8 sm:pb-4">
       <h1 className="text-center sm:text-left font-semibold max-w-5xl text-3xl pb-10 sm:pb-12 mx-auto">
         FEE BENCHMARKING ANALYSIS
       </h1>
@@ -21,7 +20,7 @@ const FeeBenchmark = () => {
           alt="Fee Benchmark"
         />
         <div
-          className="h-[150px] mt-[-75px] sm:h-[600px] sm:mt-[-300px] z-0"
+          className="h-[150px] mt-[-75px] sm:h-[600px] sm:mt-[-300px] z-0 md:bg-fixed"
           style={TreePic}
         ></div>
       </div>

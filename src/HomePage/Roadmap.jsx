@@ -88,7 +88,11 @@ const Roadmap = () => {
           immediately improve plan performance without necessitating a change in
           recordkeeper — providing minimal disruption to you and your employees.
         </p>
-        <img className="pt-8 w-72 mx-auto" src={Leaves} alt="leaves" />
+        <img
+          className="pt-6 sm:pt-8 w-40 sm:w-72 mx-auto"
+          src={Leaves}
+          alt="leaves"
+        />
       </div>
     </div>
   );
