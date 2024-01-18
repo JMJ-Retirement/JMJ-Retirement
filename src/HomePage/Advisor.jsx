@@ -32,7 +32,7 @@ const Advisor = () => {
           src={Fiduciary}
           alt="Fee Benchmark"
         />
-        <p className="max-w-5xl mx-auto z-10 bg-blue-400 p-5 mt-8 sm:text-xl text-base text-white italic">
+        <p className="max-w-5xl mx-auto z-10 bg-[#001746] p-5 mt-8 sm:text-xl text-base text-white italic">
           As fiduciaries, we are contractually and legally obligated to serve in
           the best interest of our clients, with no conflicts of interest.
         </p>

@@ -1,4 +1,5 @@
-import Compass from "../assets/compass.png";
+import Canoe from "../assets/canoe.jpg";
+import Compass from "../assets/waterCompass.jpg";
 
 const Leverage = () => {
   return (
@@ -33,14 +34,22 @@ const Leverage = () => {
               help?
             </li>
           </ul>
-          <img className="w-60 sm:w-72" src={Compass} alt="compass" />
+          <img
+            className="w-60 sm:w-72 border-2 border-black"
+            src={Canoe}
+            alt="canoe"
+          />
         </div>
         <p className="pb-6 sm:pb-12">
           By providing answers to questions like these, Your Money Line helps
           your employees find the right balance with regard to achieving all
           their financial goals, including retirement.
         </p>
-        <img className="w-60 sm:w-72 mx-auto" src={Compass} alt="compass" />
+        <img
+          className="w-60 sm:w-72 mx-auto border-2 border-black"
+          src={Compass}
+          alt="compass"
+        />
       </div>
     </div>
   );
