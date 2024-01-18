@@ -1,4 +1,4 @@
-import Compass from "../assets/compass.png";
+import Sail from "../assets/settingSail.jpg";
 
 const GreatPlan = () => {
   return (
@@ -19,7 +19,11 @@ const GreatPlan = () => {
               Are you ready to start building a great retirement plan together?
             </h4>
           </div>
-          <img className="w-60" src={Compass} alt="compass" />
+          <img
+            className="w-60 border-2 border-black"
+            src={Sail}
+            alt="setting sail"
+          />
         </div>
       </div>
     </div>

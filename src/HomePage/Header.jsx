@@ -1,5 +1,5 @@
 import Logo from "../assets/TransparentLogo.png";
-import Clouds from "../assets/Clouds.jpg";
+import Clouds from "../assets/header.jpg";
 
 const Header = () => {
   const waveStyles = {
@@ -9,13 +9,13 @@ const Header = () => {
   };
 
   return (
-    <div className="relative border-b-logoGold">
+    <div className="relative border-b-4 border-b-logoGold">
       <div
         className="flex justify-center items-center flex-col py-12 gap-8"
         style={waveStyles}
       >
         <img className="mx-auto px-5" src={Logo} alt="JMJ Retirement Logo" />
-        <h1 className="text-center px-5 text-2xl md:text-3xl lg:text-4xl text-logoBlue">
+        <h1 className="text-center px-5 text-2xl md:text-3xl lg:text-4xl text-logoGold">
           We Help Companies Build Great Retirement Plans
         </h1>
       </div>

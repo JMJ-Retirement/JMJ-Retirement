@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import Beach from "../assets/beach.jpg";
+import Beach from "../assets/clearOcean.jpg";
 import Vid from "../assets/AlexTest.mp4";
 import TestVid from "../assets/TestVid.mp4";
 
@@ -34,15 +34,15 @@ const Video = () => {
           <source src={currentVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="h-[100px] sm:w-[355.56px] lg:w-[711.11px] bg-[#7faaad] flex justify-center items-center gap-5">
+        <div className="h-[100px] sm:w-[355.56px] lg:w-[711.11px] bg-logoGold flex justify-center items-center gap-5">
           <button
-            className="bg-logoGold rounded px-5 py-3 text-center text-logoBlue cursor-pointer"
+            className="bg-logoBlue rounded px-5 py-3 text-center text-logoGold cursor-pointer"
             onClick={() => handleVideoChange(TestVid)}
           >
             Video One
           </button>
           <button
-            className="bg-logoGold text-logoBlue px-5 py-3 rounded cursor-pointer"
+            className="bg-logoBlue text-logoGold px-5 py-3 rounded cursor-pointer"
             onClick={() => handleVideoChange(Vid)}
           >
             Video Two
