@@ -28,7 +28,8 @@ const Video = () => {
         <video
           ref={videoRef}
           controls
-          className="h-[200px] sm:h-[300px] lg:h-[400px] w-auto"
+          className="w-8/12 sm:h-[300px] lg:h-[400px] sm:w-auto"
+          // poster={currentVideo}
         >
           <source src={currentVideo} type="video/mp4" />
           Your browser does not support the video tag.

@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <div className="relative border-b-4 border-logoGold">
+    <div className="relative border-b-logoGold">
       <div
         className="flex justify-center items-center flex-col py-12 gap-8"
         style={waveStyles}

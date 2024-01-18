@@ -1,4 +1,4 @@
-import Trees from "../assets/Trees.png";
+import Trees from "../assets/sail.jpg";
 import Fiduciary from "../assets/Fiduciary-chart.png";
 
 const Advisor = () => {

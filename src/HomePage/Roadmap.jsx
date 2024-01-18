@@ -44,7 +44,7 @@ const Roadmap = () => {
           </div>
           <div className="sm:w-1/5 text-white">
             <img className="h-28 sm:h-36 mx-auto" src={Water} alt="grow" />
-            <div className="bg-blue-500 h-[83%] px-5 py-5">
+            <div className="bg-[#91c33c] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Strategize</h3>
               <p>
                 Our analysis and recommendations will bring clarity to your
@@ -57,7 +57,7 @@ const Roadmap = () => {
           </div>
           <div className="sm:w-1/5 text-white">
             <img className="h-28 sm:h-36 mx-auto" src={Plant} alt="grow" />
-            <div className="bg-blue-300 h-[83%] px-5 py-5">
+            <div className="bg-[#246589] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Implement</h3>
               <p>
                 If changes are needed, OnTrack 401(k) will manage the process to
@@ -67,7 +67,7 @@ const Roadmap = () => {
           </div>
           <div className="sm:w-1/5 text-white">
             <img className="h-28 sm:h-36 mx-auto" src={Grow} alt="grow" />
-            <div className="bg-blue-400 h-[83%] px-5 py-5">
+            <div className="bg-[#343d46] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">MONITOR & DOCUMENT</h3>
               <p>
                 OnTrack 401(k) can serve your plan as an ERISA 3(21) or 3(38)

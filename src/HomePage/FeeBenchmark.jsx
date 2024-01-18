@@ -1,4 +1,4 @@
-import Trees from "../assets/Trees.png";
+import Trees from "../assets/sunset.jpg";
 import FeeBenchmarking from "../assets/Fee-Benchmarking-Analysis.png";
 
 const FeeBenchmark = () => {

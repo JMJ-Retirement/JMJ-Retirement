@@ -1,4 +1,4 @@
-import Trees from "../assets/Trees.png";
+import Trees from "../assets/ocean.jpg";
 import Demograghics from "../assets/Demographics-chart.png";
 
 const Outcomes = () => {
