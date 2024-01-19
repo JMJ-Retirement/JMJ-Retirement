@@ -1,5 +1,5 @@
 import Logo from "../assets/TransparentLogo.png";
-import Clouds from "../assets/header.jpg";
+import Clouds from "../assets/headerBackground.jpg";
 
 const Header = () => {
   const waveStyles = {

@@ -1,7 +1,8 @@
 import { useState, useRef } from "react";
-import Beach from "../assets/clearOcean.jpg";
+import Beach from "../assets/palmTrees.jpg";
 import Vid from "../assets/AlexTest.mp4";
 import TestVid from "../assets/TestVid.mp4";
+import Sail from "../assets/settingSail.jpg";
 
 const Video = () => {
   const videoRef = useRef(null);
@@ -28,21 +29,21 @@ const Video = () => {
         <video
           ref={videoRef}
           controls
-          className="w-8/12 sm:h-[300px] lg:h-[400px] sm:w-auto"
-          // poster={currentVideo}
+          className="w-9/12 md:w-auto md:h-[400px] border-2 border-black"
+          poster={Sail}
         >
           <source src={currentVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="h-[100px] sm:w-[355.56px] lg:w-[711.11px] bg-logoGold flex justify-center items-center gap-5">
+        <div className="h-[100px] w-9/12 md:w-[597.95px] bg-white flex justify-center items-center gap-5">
           <button
-            className="bg-logoBlue rounded px-5 py-3 text-center text-logoGold cursor-pointer"
+            className="bg-logoGold rounded px-5 py-3 text-center text-logoBlue cursor-pointer"
             onClick={() => handleVideoChange(TestVid)}
           >
             Video One
           </button>
           <button
-            className="bg-logoBlue text-logoGold px-5 py-3 rounded cursor-pointer"
+            className="bg-logoGold text-logoBlue px-5 py-3 rounded cursor-pointer"
             onClick={() => handleVideoChange(Vid)}
           >
             Video Two
