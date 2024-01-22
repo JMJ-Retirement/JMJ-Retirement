@@ -6,6 +6,7 @@ const FeeBenchmark = () => {
     backgroundImage: `url(${Trees})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
+    backgroundPosition: "center 50%",
   };
 
   return (

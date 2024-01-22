@@ -1,12 +1,13 @@
-import { useState, useRef } from "react";
-import Beach from "../assets/palmTrees.jpg";
-import Vid from "../assets/AlexTest.mp4";
-import TestVid from "../assets/TestVid.mp4";
-import Sail from "../assets/settingSail.jpg";
+import { useState, useRef, useEffect } from "react";
+import Beach from "../assets/header1.jpg";
 
-const Video = () => {
+const Video = ({ Vid, TestVid }) => {
   const videoRef = useRef(null);
   const [currentVideo, setCurrentVideo] = useState(TestVid);
+
+  useEffect(() => {
+    videoRef.current.load();
+  }, [currentVideo]);
 
   const BeachPic = {
     backgroundImage: `url(${Beach})`,
@@ -16,26 +17,25 @@ const Video = () => {
 
   const handleVideoChange = (video) => {
     setCurrentVideo(video);
-    videoRef.current.src = video; // Update video source
-    videoRef.current.load(); // Reload the video
+    videoRef.current.src = video;
+    videoRef.current.load();
   };
 
   return (
     <div className="relative">
       <div
-        className="flex justify-center items-center flex-col py-12"
+        className="flex justify-center items-center flex-col py-12 sm:bg-fixed"
         style={BeachPic}
       >
         <video
           ref={videoRef}
           controls
           className="w-9/12 md:w-auto md:h-[400px] border-2 border-black"
-          poster={Sail}
         >
           <source src={currentVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="h-[100px] w-9/12 md:w-[597.95px] bg-white flex justify-center items-center gap-5">
+        <div className="h-[100px] w-9/12 md:w-[708px] bg-white flex justify-center items-center gap-5">
           <button
             className="bg-logoGold rounded px-5 py-3 text-center text-logoBlue cursor-pointer"
             onClick={() => handleVideoChange(TestVid)}
