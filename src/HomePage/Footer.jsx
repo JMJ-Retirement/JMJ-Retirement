@@ -8,7 +8,11 @@ function Footer() {
         <div className="sm:col-span-2 basis-1/2">
           <Link to="/">
             <div className="justify-center gap-2 pb-4 md:flex">
-              <img src={Logo} alt="Roubik Tax Services icon" className="h-16" />
+              <img
+                src={Logo}
+                alt="JMJ Retirement icon"
+                className="h-12 sm:h-16"
+              />
             </div>
           </Link>
         </div>
