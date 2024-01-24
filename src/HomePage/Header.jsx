@@ -1,23 +1,22 @@
-import Logo from "../assets/TransparentLogo.png";
-import Clouds from "../assets/headerBackground.jpg";
+import Video from "../assets/headerVideo.mp4";
 
 const Header = () => {
-  const waveStyles = {
-    backgroundImage: `url(${Clouds})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-  };
-
   return (
     <div className="relative border-b-4 border-b-logoGold">
-      <div
-        className="flex justify-center items-center flex-col py-12 gap-8"
-        style={waveStyles}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="w-full h-full object-cover lg:mt-[-250px]"
       >
-        <img className="mx-auto px-5" src={Logo} alt="JMJ Retirement Logo" />
-        <h1 className="text-center px-5 text-2xl md:text-3xl lg:text-4xl text-logoGold">
-          We Help Companies Build Great Retirement Plans
-        </h1>
+        <source src={Video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className=" bg-[#d6e1e2] h-24 sm:h-32 w-full flex items-center justify-center">
+        <h3 className="text-logoGold text-sm sm:text-base md:text-3xl">
+          We Help Businesses Create Great Retirement Plans
+        </h3>
       </div>
     </div>
   );
