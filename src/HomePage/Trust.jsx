@@ -18,7 +18,7 @@ const Trust = () => {
           When it comes to selecting your plan’s investment line-up, OnTrack
           401(k) adheres to the old adage less is more.
         </p>
-        <p className="mb-16">Your employees:</p>
+        <p className="mb-16 text-base sm:text-lg">Your employees:</p>
         <div className="flex flex-col sm:flex-row gap-10">
           <div className="sm:w-1/3">
             <img
