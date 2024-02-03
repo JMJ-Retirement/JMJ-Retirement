@@ -16,7 +16,7 @@ const FeeBenchmark = () => {
       </h1>
       <div className="flex flex-col">
         <img
-          className=" w-4/5 sm:w-auto outline max-w-5xl mx-auto z-10"
+          className="w-4/5 lg:w-auto outline max-w-5xl mx-auto z-10"
           src={FeeBenchmarking}
           alt="Fee Benchmark"
         />

@@ -1,4 +1,4 @@
-import Video from "../assets/headerVideo.mp4";
+import Video from "../assets/transparentVideo.mp4";
 
 const Header = () => {
   return (
