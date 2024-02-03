@@ -12,8 +12,8 @@ const Roadmap = () => {
         <h1 className="font-semibold text-center sm:text-left text-2xl sm:text-3xl pb-6 sm:pb-12">
           OUR 5-STEP SERVICE ROADMAP
         </h1>
-        <div className="flex flex-col sm:flex-row gap-8 sm:gap-0">
-          <div className="sm:w-1/5 text-white shadow-md">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-0">
+          <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Shovel} alt="grow" />
             <div className="bg-[#3177C1] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Initial Discovery</h3>
@@ -25,7 +25,7 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="sm:w-1/5 text-white shadow-md">
+          <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Sand} alt="grow" />
             <div className="bg-[#808080] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Analyze</h3>
@@ -42,7 +42,7 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="sm:w-1/5 text-white shadow-md">
+          <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Water} alt="grow" />
             <div className="bg-[#91c33c] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Strategize</h3>
@@ -55,7 +55,7 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="sm:w-1/5 text-white shadow-md">
+          <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Plant} alt="grow" />
             <div className="bg-[#246589] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Implement</h3>
@@ -65,7 +65,7 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="sm:w-1/5 text-white shadow-md">
+          <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Grow} alt="grow" />
             <div className="bg-[#343d46] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">MONITOR & DOCUMENT</h3>

@@ -13,7 +13,7 @@ const Outcomes = () => {
     <div className="pt-6 sm:pt-12 pb-4">
       <div className="flex flex-col">
         <img
-          className="w-4/5 sm:w-auto outline max-w-5xl mx-auto z-10"
+          className="w-4/5 lg:w-auto outline max-w-5xl mx-auto z-10"
           src={Demograghics}
           alt="Fee Benchmark"
         />
