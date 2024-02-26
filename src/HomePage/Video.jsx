@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from "react";
-import Beach from "../assets/header1.jpg";
 
-const Video = ({ Vid, TestVid }) => {
+const Video = ({ Vid, TestVid, Beach }) => {
   const videoRef = useRef(null);
   const [currentVideo, setCurrentVideo] = useState(TestVid);
 

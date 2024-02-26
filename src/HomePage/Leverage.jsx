@@ -12,7 +12,7 @@ const Leverage = () => {
           Leverage a financial wellness program that delivers practical answers
           to the questions and challenges your employees have right now.
         </h1>
-        <div className="flex flex-col-reverse items-center sm:items-start sm:flex-row gap-6 sm:gap-14 pb-6 sm:pb-10">
+        <div className="flex flex-col-reverse items-center md:items-start md:flex-row gap-6 md:gap-14 pb-6 md:pb-10">
           <ul className="list-disc flex flex-col gap-2 sm:gap-4 pl-5">
             <li>I’m drowning in credit card debt. How do I pay it off?</li>
             <li>
