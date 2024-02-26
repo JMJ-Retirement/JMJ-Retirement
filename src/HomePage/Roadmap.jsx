@@ -8,11 +8,11 @@ import Leaves from "../assets/beach.jpg";
 const Roadmap = () => {
   return (
     <div>
-      <div className="pt-12 pb-4 max-w-5xl mx-auto px-5">
+      <div className="pt-12 pb-4 max-w-5xl mx-auto px-5 md:px-0">
         <h1 className="font-semibold text-center sm:text-left text-2xl sm:text-3xl pb-6 sm:pb-12">
           OUR 5-STEP SERVICE ROADMAP
         </h1>
-        <div className="flex flex-col md:flex-row gap-8 md:gap-0">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-0 sm:px-10 md:px-0">
           <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Shovel} alt="grow" />
             <div className="bg-[#3177C1] h-[83%] px-5 py-5">
@@ -29,17 +29,25 @@ const Roadmap = () => {
             <img className="h-28 sm:h-36 mx-auto" src={Sand} alt="grow" />
             <div className="bg-[#808080] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">Analyze</h3>
-              <p>
+              <p className="mb-2">
                 Our in depth analysis will show you all of the fees associated
-                with your retirement plan and how your fees stack up to other
-                plans your size. We will:<br></br>
-                <br></br>• Analyze your current investments and recommend
-                changes if needed.<br></br>
-                <br></br>• Evaluate your fiduciary liability and provide
-                recommendations to help reduce your exposure.<br></br>
-                <br></br>• Analyze your plan utilization and provide proactive
-                plan design recommendations.
+                with your retirement plan and how your fees stack up to other we
+                will:
               </p>
+              <ul className="list-disc ">
+                <li className="mb-2">
+                  Analyze your current investments and recommend changes if
+                  needed.
+                </li>
+                <li className="mb-2">
+                  Evaluate your fiduciary liability and provide recommendations
+                  to help reduce your exposure.
+                </li>
+                <li className="mb-2">
+                  Analyze your plan utilization and provide proactive plan
+                  design recommendations.
+                </li>
+              </ul>
             </div>
           </div>
           <div className="md:w-1/5 text-white shadow-md">
@@ -69,17 +77,24 @@ const Roadmap = () => {
             <img className="h-28 sm:h-36 mx-auto" src={Grow} alt="grow" />
             <div className="bg-[#343d46] h-[83%] px-5 py-5">
               <h3 className="text-xl pb-5">MONITOR & DOCUMENT</h3>
-              <p>
+              <p className="pb-2">
                 OnTrack 401(k) can serve your plan as an ERISA 3(21) or 3(38)
-                fiduciary. We will:<br></br>
-                <br></br>• Monitor and benchmark the fees and investments in
-                your retirement plan.<br></br>
-                <br></br>• Document the prudent process we use to monitor your
-                plan.<br></br>
-                <br></br>• Report to the investment committee.<br></br>
-                <br></br>• Track progress of plan utilization to ensure
-                employees are getting the most out of your plan.
+                fiduciary. We will:
               </p>
+              <ul className="list-disc">
+                <li className="mb-2">
+                  Monitor and benchmark the fees and investments in your
+                  retirement plan.
+                </li>
+                <li className="mb-2">
+                  Document the prudent process we use to monitor your plan.
+                </li>
+                <li className="mb-2">Report to the investment committee.</li>
+                <li className="mb-2">
+                  Track progress of plan utilization to ensure employees are
+                  getting the most out of your plan.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

@@ -8,14 +8,14 @@ const Header = () => {
         loop
         muted
         playsInline
-        className="w-full h-full object-cover lg:mt-[-250px]"
+        className="w-full h-full object-cover lg:mt-[-200px]"
       >
         <source src={Video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className=" bg-[#d6e1e2] h-24 sm:h-32 w-full flex items-center justify-center">
-        <h3 className="text-logoGold text-sm sm:text-base md:text-3xl">
-          We Help Businesses Create Great Retirement Plans
+      <div className="bg-[#d5e1e2] h-24 sm:h-32 w-full flex items-center justify-center">
+        <h3 className="font-semibold text-[#706e63] text-sm sm:text-base md:text-2xl lg:text-3xl">
+          We Help Businesses Build and Manage Great Retirement Plans
         </h3>
       </div>
     </div>

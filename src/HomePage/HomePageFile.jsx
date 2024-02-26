@@ -13,45 +13,29 @@ import Trust from "./Trust";
 import Footer from "./Footer";
 import Vid from "../assets/AlexTest.mp4";
 import TestVid from "../assets/TestVid.mp4";
+import Beach from "../assets/header1.jpg";
 import { useEffect, useState } from "react";
 import { FadeLoader } from "react-spinners";
 
 const HomePage = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isPageLoaded, setIsPageLoaded] = useState(false);
 
   useEffect(() => {
-    const loadVideos = async () => {
-      const videoPromises = [loadVideo(Vid), loadVideo(TestVid)];
-
-      await Promise.all(videoPromises);
-      setIsLoading(false);
-    };
-
-    const loadVideo = (src) => {
-      return new Promise((resolve) => {
-        const video = document.createElement("video");
-        video.src = src;
-        video.onloadeddata = resolve;
-      });
-    };
-
-    // Set the loading state to true initially
-    setIsLoading(true);
-
-    // Call the function to load the videos
-    loadVideos();
+    const img = new Image();
+    img.src = Beach;
+    img.onload = () => setIsPageLoaded(true);
   }, []);
 
   return (
     <>
-      {isLoading ? (
+      {!isPageLoaded ? (
         <div className="mt-40 flex h-screen items-start justify-center">
           <FadeLoader size={"100px"} color={"#61C3EB"} />
         </div>
       ) : (
         <>
           <Header />
-          <Video Vid={Vid} TestVid={TestVid} />
+          <Video Vid={Vid} TestVid={TestVid} Beach={Beach} />
           <GreatPlan />
           <Partner />
           <Roadmap />
