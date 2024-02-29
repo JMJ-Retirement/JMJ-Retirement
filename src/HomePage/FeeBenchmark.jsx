@@ -11,7 +11,7 @@ const FeeBenchmark = () => {
 
   return (
     <div className="pt-4 sm:pt-12 pb-8 sm:pb-4">
-      <h1 className="text-center sm:text-left font-semibold max-w-5xl text-3xl pb-10 sm:pb-12 mx-auto">
+      <h1 className="text-center sm:text-left font-semibold max-w-5xl text-3xl pb-10 sm:pb-12 mx-auto px-5">
         FEE BENCHMARKING ANALYSIS
       </h1>
       <div className="flex flex-col">

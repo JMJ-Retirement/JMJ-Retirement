@@ -9,7 +9,7 @@ const Roadmap = () => {
   return (
     <div>
       <div className="pt-12 pb-4 max-w-5xl mx-auto px-5 md:px-0">
-        <h1 className="font-semibold text-center sm:text-left text-2xl sm:text-3xl pb-6 sm:pb-12">
+        <h1 className="font-semibold text-center sm:text-left text-2xl sm:text-3xl pb-6 sm:pb-12 md:px-5 lg:px-0">
           OUR 5-STEP SERVICE ROADMAP
         </h1>
         <div className="flex flex-col md:flex-row gap-8 md:gap-0 sm:px-10 md:px-0">
@@ -98,7 +98,7 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <p className="pt-6 sm:pt-4">
+        <p className="pt-4 sm:pt-8 md:mx-5 lg:mx-0">
           In many cases, we can make a few initial recommendations that will
           immediately improve plan performance without necessitating a change in
           recordkeeper — providing minimal disruption to you and your employees.
