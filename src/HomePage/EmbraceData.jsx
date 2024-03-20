@@ -1,4 +1,4 @@
-import Retirement from "../assets/retirement.jpg";
+import CompassBlue from "../assets/compassBlue.png";
 
 const EmbraceData = () => {
   return (
@@ -20,11 +20,7 @@ const EmbraceData = () => {
             is measuring employee engagement with the plan. Are we making
             progress in helping your employees achieve better outcomes?
           </p>
-          <img
-            className="w-60 border-2 border-black"
-            src={Retirement}
-            alt="Retirement on a beach"
-          />
+          <img className="w-36" src={CompassBlue} alt="Compass" />
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import Sail from "../assets/settingSail.jpg";
+import Wheel from "../assets/wheel.png";
 
 const GreatPlan = () => {
   return (
@@ -19,11 +19,7 @@ const GreatPlan = () => {
               Are you ready to start building a great retirement plan together?
             </h4>
           </div>
-          <img
-            className="w-60 border-2 border-black"
-            src={Sail}
-            alt="setting sail"
-          />
+          <img className="w-60" src={Wheel} alt="setting sail" />
         </div>
       </div>
     </div>

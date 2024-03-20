@@ -1,6 +1,6 @@
-import treesGraphic from "../assets/trees-graphic-icon.png";
-import pottedPlant from "../assets/potted-plant-icon.png";
-import apple from "../assets/apple-icon.png";
+import treesGraphic from "../assets/anchor.png";
+import pottedPlant from "../assets/map.png";
+import apple from "../assets/binocular.png";
 
 const Trust = () => {
   return (
