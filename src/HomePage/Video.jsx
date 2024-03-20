@@ -29,7 +29,7 @@ const Video = ({ Vid, TestVid, Beach }) => {
         <video
           ref={videoRef}
           controls
-          className="w-9/12 md:w-auto md:h-[400px] border-2 border-black"
+          className="w-9/12 md:w-auto md:h-[400px]"
         >
           <source src={currentVideo} type="video/mp4" />
           Your browser does not support the video tag.
