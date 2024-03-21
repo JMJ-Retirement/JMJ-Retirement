@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Video from "./Video";
+import About from "./About";
 import GreatPlan from "./GreatPlan";
 import Partner from "./Partner";
 import Roadmap from "./Roadmap";
@@ -45,6 +46,7 @@ const HomePage = () => {
         <>
           <Header />
           <Video Vid={Vid} TestVid={TestVid} Beach={Beach} />
+          <About />
           <GreatPlan />
           <Partner />
           <Roadmap />
