@@ -10,6 +10,7 @@ import Outcomes from "./Outcomes";
 import Leverage from "./Leverage";
 import Advisor from "./Advisor";
 import Trust from "./Trust";
+import Compliance from "./Compliance";
 import Footer from "./Footer";
 import Vid from "../assets/AlexTest.mp4";
 import TestVid from "../assets/TestVid.mp4";
@@ -54,6 +55,7 @@ const HomePage = () => {
           <Leverage />
           <Advisor />
           <Trust />
+          <Compliance />
           <Footer />
         </>
       )}
