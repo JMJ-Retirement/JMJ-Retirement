@@ -3,7 +3,7 @@ import Wheel from "../assets/wheel.png";
 const GreatPlan = () => {
   return (
     <div>
-      <div className="pt-8 sm:pt-12 pb-4 max-w-5xl mx-auto px-5 lg:px-0">
+      <div className="sm:pt-12 pb-4 max-w-5xl mx-auto px-5 lg:px-0">
         <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl text-center pb-6 sm:pb-12">
           What Helps Make a Great Retirement Plan?
         </h1>
