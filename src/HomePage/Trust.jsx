@@ -1,6 +1,6 @@
-import treesGraphic from "../assets/anchor.png";
-import pottedPlant from "../assets/map.png";
-import apple from "../assets/binocular.png";
+import Anchor from "../assets/anchor.png";
+import Map from "../assets/map.png";
+import Binocular from "../assets/binocular.png";
 
 const Trust = () => {
   return (
@@ -23,19 +23,15 @@ const Trust = () => {
           <div className="sm:w-1/3">
             <img
               className="h-24 sm:h-36 mx-auto mb-5"
-              src={treesGraphic}
-              alt=""
+              src={Anchor}
+              alt="Anchor"
             />
             <p className="text-center">
               Won’t be overwhelmed by the number of available investment options
             </p>
           </div>
           <div className="sm:w-1/3">
-            <img
-              className="h-24 sm:h-36 mx-auto mb-5"
-              src={pottedPlant}
-              alt=""
-            />
+            <img className="h-24 sm:h-36 mx-auto mb-5" src={Map} alt="Map" />
             <p className="text-center">
               Will have access to low- cost, institutional share class
               investment options that represent the essential asset classes
@@ -43,7 +39,11 @@ const Trust = () => {
             </p>
           </div>
           <div className="sm:w-1/3">
-            <img className="h-24 sm:h-36 mx-auto mb-5" src={apple} alt="" />
+            <img
+              className="h-24 sm:h-36 mx-auto mb-5"
+              src={Binocular}
+              alt="Binocular"
+            />
             <p className="text-center">
               Can take advantage of investment options that make the selection
               process simpler and easier (such as target-date funds or other

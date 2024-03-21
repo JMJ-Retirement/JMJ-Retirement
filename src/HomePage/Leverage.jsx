@@ -1,4 +1,4 @@
-import Canoe from "../assets/liferaft.png";
+import LifeRaft from "../assets/liferaft.png";
 import Compass from "../assets/starCompass.png";
 
 const Leverage = () => {
@@ -34,7 +34,7 @@ const Leverage = () => {
               help?
             </li>
           </ul>
-          <img className="w-60 sm:w-72" src={Canoe} alt="canoe" />
+          <img className="w-60 sm:w-72" src={LifeRaft} alt="Life Raft" />
         </div>
         <p className="pb-6 sm:pb-12">
           By providing answers to questions like these, Your Money Line helps
