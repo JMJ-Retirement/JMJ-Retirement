@@ -1,4 +1,4 @@
-import Video from "../assets/transparentVideo.mp4";
+import Video from "../assets/sailJMJ.mp4";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
         loop
         muted
         playsInline
-        className="w-full h-full object-cover lg:mt-[-200px]"
+        className="w-full h-full object-cover lg:mt-[-100px] xl:mt-[-200px]"
       >
         <source src={Video} type="video/mp4" />
         Your browser does not support the video tag.
