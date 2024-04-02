@@ -1,7 +1,7 @@
 import Map from "../assets/map.png";
-import Lighthouse from "../assets/lighthouse.png";
+import Lighthouse from "../assets/houseoflight.png";
 import Binocular from "../assets/binocular.png";
-import Boat from "../assets/boat.png";
+import Boat from "../assets/ship.png";
 import Hat from "../assets/hat.png";
 import AnchorBlue from "../assets/anchorBlue.png";
 
