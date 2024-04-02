@@ -1,6 +1,6 @@
 import Anchor from "../assets/anchor.png";
-import Map from "../assets/map.png";
-import Binocular from "../assets/binocular.png";
+import BlueWheel from "../assets/blueWheel.png";
+import SeaShell from "../assets/seaShell.png";
 
 const Trust = () => {
   return (
@@ -31,7 +31,11 @@ const Trust = () => {
             </p>
           </div>
           <div className="sm:w-1/3">
-            <img className="h-24 sm:h-36 mx-auto mb-5" src={Map} alt="Map" />
+            <img
+              className="h-24 sm:h-36 mx-auto mb-5"
+              src={BlueWheel}
+              alt="wheel"
+            />
             <p className="text-center">
               Will have access to low- cost, institutional share class
               investment options that represent the essential asset classes
@@ -41,8 +45,8 @@ const Trust = () => {
           <div className="sm:w-1/3">
             <img
               className="h-24 sm:h-36 mx-auto mb-5"
-              src={Binocular}
-              alt="Binocular"
+              src={SeaShell}
+              alt="Sea shell"
             />
             <p className="text-center">
               Can take advantage of investment options that make the selection
