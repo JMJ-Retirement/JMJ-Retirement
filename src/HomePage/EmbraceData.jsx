@@ -20,7 +20,7 @@ const EmbraceData = () => {
             is measuring employee engagement with the plan. Are we making
             progress in helping your employees achieve better outcomes?
           </p>
-          <img className="w-36" src={CompassBlue} alt="Compass" />
+          <img className="w-32 sm:w-36" src={CompassBlue} alt="Compass" />
         </div>
       </div>
     </div>
