@@ -27,7 +27,7 @@ const About = () => {
         </div>
         <div className="w-full md:w-1/2">
           <div className="flex flex-col gap-6">
-            <h3 className="font-semibold text-3xl sm:text-4xl md:text-5xl text-center md:text-left pb-2 sm:pb-8">
+            <h3 className="font-semibold text-3xl sm:text-4xl md:text-5xl text-center md:text-left">
               About Jerome
             </h3>
             <p className="font-light">
