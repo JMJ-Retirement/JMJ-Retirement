@@ -19,7 +19,7 @@ const GreatPlan = () => {
               Are you ready to start building a great retirement plan together?
             </h4>
           </div>
-          <img className="w-60" src={Wheel} alt="setting sail" />
+          <img className="w-40 sm:w-60" src={Wheel} alt="setting sail" />
         </div>
       </div>
     </div>

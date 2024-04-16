@@ -34,14 +34,14 @@ const Leverage = () => {
               help?
             </li>
           </ul>
-          <img className="w-60 sm:w-72" src={LifeRaft} alt="Life Raft" />
+          <img className="w-32 sm:w-72" src={LifeRaft} alt="Life Raft" />
         </div>
         <p className="pb-6 sm:pb-12">
           By providing answers to questions like these, Your Money Line helps
           your employees find the right balance with regard to achieving all
           their financial goals, including retirement.
         </p>
-        <img className="w-60 sm:w-72 mx-auto" src={Compass} alt="compass" />
+        <img className="w-32 sm:w-72 mx-auto" src={Compass} alt="compass" />
       </div>
     </div>
   );
