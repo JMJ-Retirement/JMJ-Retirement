@@ -1,5 +1,5 @@
-import LifeRaft from "../assets/liferaft.png";
-import Compass from "../assets/starCompass.png";
+import LifeRaft from "../assets/newLiferaft.png";
+import Compass from "../assets/newCompass.png";
 
 const Leverage = () => {
   return (
@@ -9,39 +9,35 @@ const Leverage = () => {
           What Helps Make a Great Retirement Plan?
         </h4>
         <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl pb-10">
-          Leverage a financial wellness program that delivers practical answers
-          to the questions and challenges your employees have right now.
+          Empower Financial Well-Being with Actionable Guidance
         </h1>
         <div className="flex flex-col-reverse items-center md:items-start md:flex-row gap-6 md:gap-14 pb-6 md:pb-10">
-          <ul className="list-disc flex flex-col gap-2 sm:gap-4 pl-5">
-            <li>I’m drowning in credit card debt. How do I pay it off?</li>
-            <li>
-              I want to plan ahead for my kids’ college education. Where do I
-              start?
-            </li>
-            <li>
-              It feels like I’ll have student loans forever. Can you help me
-              make a payoff plan?
-            </li>
-            <li>Should I purchase term or whole life insurance?</li>
-            <li>
-              Is a retirement plan loan a bad idea? Are there better
-              alternatives?
-            </li>
-            <li>Can you help me decide if I am ready to buy a house?</li>
-            <li>
-              I need help navigating through this financial crisis. Can you
-              help?
-            </li>
-          </ul>
-          <img className="w-32 sm:w-72" src={LifeRaft} alt="Life Raft" />
+          <p className="">
+            JMJ Retirement offers a financial wellness program that addresses
+            your employees’ immediate financial concerns with practical
+            solutions. Whether it’s devising strategies to eliminate credit card
+            debt, planning for children’s college funds, creating student loan
+            repayment plans, understanding insurance options, evaluating
+            retirement plan loans, or preparing for a home purchase, we’re here
+            to navigate you through financial challenges with expert advice and
+            support.
+          </p>
+          <img className="w-32 sm:w-48" src={LifeRaft} alt="Life Raft" />
         </div>
         <p className="pb-6 sm:pb-12">
-          By providing answers to questions like these, Your Money Line helps
-          your employees find the right balance with regard to achieving all
-          their financial goals, including retirement.
+          Our wellness program not only provides actionable solutions to your
+          employees’ current financial questions but also includes{" "}
+          <div className="font-semibold inline">
+            personal one-on-one meetings
+          </div>{" "}
+          and{" "}
+          <div className="font-semibold inline">
+            in-person enrollment sessions
+          </div>{" "}
+          for every team member, ensuring individualized guidance and
+          comprehensive understanding of their financial choices.
         </p>
-        <img className="w-32 sm:w-72 mx-auto" src={Compass} alt="compass" />
+        <img className="w-32 sm:w-52 mx-auto" src={Compass} alt="compass" />
       </div>
     </div>
   );

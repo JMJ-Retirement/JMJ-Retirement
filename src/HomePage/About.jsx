@@ -28,25 +28,42 @@ const About = () => {
         <div className="w-full md:w-1/2">
           <div className="flex flex-col gap-6">
             <h3 className="font-semibold text-3xl sm:text-4xl md:text-5xl text-center md:text-left">
-              About Jerome
+              About Jerome Jedynak
             </h3>
             <p className="font-light">
-              Jerome Jedynak has been working as an Independent Advisor with
-              Harbour Investments since 2008 and has been in the financial
-              services industry since 2001. Jerome currently manages $35 million
-              dollars in assets for both individuals and corporations. Jerome
-              focuses on corporate retirement plan consulting and participant
-              services. Jerome manages many of the day-to-day operations for his
-              401(k) clients, providing enrollment and ongoing support services
-              for plan participants and offers support services for plan
-              sponsors. He also takes an active role with his individual
-              clients, listening to their needs and creating a workable plan for
-              them to help achieve their financial goals. <br></br>
-              <br></br>Prior to founding JMJ Retirement Solutions, Jerome
-              Jedynak worked in Chicago for JPMorgan Chase as a Banker. An
-              Alumnus of the University Of Illinois Champaign-Urbana; Jerome
-              earned his B.A. in economics. He holds a Series 6, 7, 63 and 65
-              securities licenses.
+              With a steadfast presence in the financial services sector since
+              2001 and a specialized focus on retirement planning since 2008,
+              Jerome Jedynak stands as a distinguished{" "}
+              <div className="font-semibold inline-block">401(k) Advisor</div>.
+              At the helm of JMJ Retirement Solutions, Jerome stewards over{" "}
+              <div className="font-semibold inline-block">
+                $50 million in assets
+              </div>
+              , delivering bespoke retirement strategies for small businesses
+              throughout the Milwaukee region.<br></br>
+              <br></br>
+              Jerome’s philosophy is rooted in a{" "}
+              <div className="font-semibold inline-block">
+                white-glove approach
+              </div>
+              —ensuring a seamless and comprehensive management of retirement
+              plans with unwavering reliability. His expertise is matched by his
+              accessibility, making him a favored advisor among his clientele.
+              <br></br>
+              <br></br>
+              Before his venture creating JMJ Retirement, Jerome honed his
+              financial acumen at JPMorgan Chase in Chicago, where he served as
+              a banker. A proud alumnus of the University of Illinois at
+              Urbana-Champaign, he holds a B.A. in Economics and is fully
+              licensed with his Series 6, 7, 63, and 65 securities licenses.
+              <br></br>
+              <br></br>
+              Jerome’s life outside the office is rich with family, community,
+              and fitness pursuits. Residing in Franklin, WI with his family, he
+              is a regular at the Croatian Soccer Park, cheering on his son. His
+              dedication to health is evident in his commitment to CrossFit, a
+              testament to his belief in maintaining balance in all aspects of
+              life.
             </p>
           </div>
         </div>
