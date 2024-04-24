@@ -6,14 +6,16 @@ const Partner = () => {
           What Helps Make a Great Retirement Plan?
         </p>
         <h1 className="font-semibold text-3xl md:text-5xl sm:text-4xl pb-6 sm:pb-12">
-          Partner with an advisor who understands your needs and is easy to work
-          with
+          Partner with an advisor that understands your needs and is easy to
+          work with
         </h1>
         <p className="text-base sm:text-lg">
-          We know you’re busy wearing many different hats during an average
-          workday. That’s why we made partnering with OnTrack401(k) as simple
-          and easy as possible. Our primary focus is to thoroughly understand
-          your plan’s unique needs.
+          <div className="font-semibold text-xl pb-6">
+            Effortless Engagement, Focused on You
+          </div>
+          At JMJ Retirement Solutions, we streamline your experience. Our goal
+          is simple: understand and meet your plan’s needs with ease. Our
+          primary focus is to thoroughly understand your plan’s unique needs.
         </p>
       </div>
     </div>

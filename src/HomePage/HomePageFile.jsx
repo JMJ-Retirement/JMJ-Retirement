@@ -1,5 +1,5 @@
 import Header from "./Header";
-import Video from "./Video";
+// import Video from "./Video";
 import About from "./About";
 import GreatPlan from "./GreatPlan";
 import Partner from "./Partner";
@@ -13,8 +13,8 @@ import Advisor from "./Advisor";
 import Trust from "./Trust";
 import Compliance from "./Compliance";
 import Footer from "./Footer";
-import Vid from "../assets/AlexTest.mp4";
-import TestVid from "../assets/TestVid.mp4";
+// import Vid from "../assets/AlexTest.mp4";
+// import TestVid from "../assets/TestVid.mp4";
 import Beach from "../assets/header1.jpg";
 import Logo from "../assets/TransparentLogo.png";
 import { useEffect, useState } from "react";
@@ -45,7 +45,7 @@ const HomePage = () => {
       ) : (
         <>
           <Header />
-          <Video Vid={Vid} TestVid={TestVid} Beach={Beach} />
+          {/* <Video Vid={Vid} TestVid={TestVid} Beach={Beach} /> */}
           <About />
           <GreatPlan />
           <Partner />

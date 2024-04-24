@@ -16,14 +16,20 @@ const Advisor = () => {
         </p>
         <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl pb-6 sm:pb-8">
           Lean on your advisor to help reduce the fiduciary liability you face
-          with regard to selecting, monitoring and managing plan investments.
+          with regard to compliance testing and selecting, monitoring and
+          managing plan investments.
         </h1>
         <p className="text-base sm:text-lg">
-          As a 3(21) or 3(38) fiduciary, we help plan sponsors by taking on the
-          heavy lifting of researching, selecting, monitoring and—as
-          necessary—adding or replacing funds in your plan’s line-up. Below is
-          an overview of the key differences between a non-fiduciary broker or
-          salesperson versus our 3(21) and 3(38) service models:
+          Depend on JMJ Retirement to mitigate fiduciary risks associated with
+          the selection, oversight, and administration of plan investments. As a
+          3(21) and 3(38) fiduciary, we shoulder the responsibility of
+          meticulously researching, choosing, and supervising funds, making
+          adjustments as needed to refine your plan’s portfolio. We distinguish
+          our comprehensive fiduciary services from those of non-fiduciary
+          brokers or salespeople, ensuring you receive dedicated expertise and
+          support. We go above and beyond most advisors by actually assisting
+          with the compliance test and taking as much of that process off your
+          hands.
         </p>
       </div>
       <div className="flex flex-col">

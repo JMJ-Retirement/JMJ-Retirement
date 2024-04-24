@@ -1,4 +1,4 @@
-import CompassBlue from "../assets/compassBlue.png";
+import CompassBlue from "../assets/newSmallCompass.png";
 
 const EmbraceData = () => {
   return (
@@ -8,17 +8,21 @@ const EmbraceData = () => {
           What Helps Make a Great Retirement Plan?
         </p>
         <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl pb-6 sm:pb-8">
-          Embrace plan reporting and data; rely on it to measure plan success
-          and identify areas that need improvement.
+          Data-Driven Progress, Targeted Enhancements
         </h1>
         <div className="flex items-center sm:items-start flex-col sm:flex-row gap-6 sm:gap-8">
           <p className="text-base sm:text-lg">
-            OnTrack’s Plan Review is our “report card”. While it covers many
-            details and aspects of your retirement plan, its essential purpose
-            is to present you with a way to track your plan’s progress toward
-            greatness. A key component of OnTrack 401(k)’s formal Plan Reviews
-            is measuring employee engagement with the plan. Are we making
-            progress in helping your employees achieve better outcomes?
+            JMJ Retirement encourages a proactive embrace of reporting and
+            analytics as the compass for plan success and continuous
+            improvement. Our Plan Review serves as a comprehensive “report
+            card,” detailing your retirement plan’s multifaceted aspects and,
+            most importantly, providing a clear metric for tracking strides
+            toward excellence.<br></br>
+            <br></br>
+            Central to our Plan Reviews is the assessment of employee
+            interaction with the plan—vital in gauging our effectiveness in
+            aiding your employees on their journey to better retirement
+            outcomes.
           </p>
           <img className="w-32 sm:w-36" src={CompassBlue} alt="Compass" />
         </div>

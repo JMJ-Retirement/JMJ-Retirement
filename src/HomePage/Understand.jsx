@@ -6,14 +6,17 @@ const Understand = () => {
           What Helps Make a Great Retirement Plan?
         </p>
         <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl pb-6 sm:pb-8">
-          Clearly understand what services you are paying for and how much.
+          Clearly understand what services you are paying for and how much they
+          cost.
         </h1>
         <p className="text-base sm:text-lg">
-          OnTrack 401(k) is committed to helping you understand your plan’s
-          current costs and fees in a format that is easy to digest and
-          understand. Going forward, we work to help ensure your plan’s cost is
-          always truly reflective of the services and value that you and your
-          employees need.
+          <div className="font-semibold pb-5">
+            Transparent Costs, Incredible Value, And Save Time
+          </div>{" "}
+          JMJ Retirement dedicates itself to demystifying your plan’s costs and
+          fees, presenting them in an easily comprehensible manner. Our ongoing
+          mission is to align your plan’s expenses with the essential services
+          and value that support you and your employees’ needs.
         </p>
       </div>
     </div>
