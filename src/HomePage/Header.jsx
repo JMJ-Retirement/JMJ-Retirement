@@ -16,7 +16,7 @@ const Header = () => {
         <source src={Video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="bg-[#d5e1e2] h-24 sm:h-32 w-full flex items-center justify-center">
+      <div className="bg-[#d5e1e2] h-24 sm:h-28 w-full flex items-center justify-center">
         <h3 className="font-semibold text-[#706e63] text-sm sm:text-base md:text-2xl lg:text-3xl text-center px-5 sm:px-0">
           We Help Businesses Build and Manage Great Retirement Plans
         </h3>

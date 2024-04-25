@@ -22,7 +22,7 @@ const Leverage = () => {
             to navigate you through financial challenges with expert advice and
             support.
           </p>
-          <img className="w-32 sm:w-48" src={LifeRaft} alt="Life Raft" />
+          <img className="w-32 sm:w-44" src={LifeRaft} alt="Life Raft" />
         </div>
         <p className="pb-6 sm:pb-12">
           Our wellness program not only provides actionable solutions to your
