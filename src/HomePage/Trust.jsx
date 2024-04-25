@@ -15,8 +15,8 @@ const Trust = () => {
           choices.
         </h1>
         <p className="text-base sm:text-lg">
-          When it comes to selecting your plan’s investment line-up, OnTrack
-          401(k) adheres to the old adage less is more.
+          When it comes to selecting your plan’s investment line-up, JMJ
+          Retirement adheres to the old adage less is more.
         </p>
         <p className="mb-16 text-base sm:text-lg">Your employees:</p>
         <div className="flex flex-col sm:flex-row gap-10">
