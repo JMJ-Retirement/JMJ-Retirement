@@ -16,7 +16,7 @@ const About = () => {
               cy={`${circleDimensions / 2}`}
               r={`${circleDimensions / 2}`}
               strokeWidth="0"
-              fill="#b4aa89"
+              fill="#d3d3d3"
             />
           </svg>
           <img

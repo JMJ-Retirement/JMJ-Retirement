@@ -4,7 +4,7 @@ const GreatPlan = () => {
   return (
     <div>
       <div className="sm:pt-12 pb-4 max-w-5xl mx-auto px-5 lg:px-0">
-        <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl text-center pb-6 sm:pb-12">
+        <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl text-center sm:text-left pb-6 sm:pb-12">
           Retirement Plan Excellence
         </h1>
         <div className="flex items-center sm:items-start flex-col sm:flex-row gap-6 sm:gap-8 text-base sm:text-lg">

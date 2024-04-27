@@ -8,6 +8,9 @@ export default {
         logoGold: "#b4aa89",
         ButtonBlackHover: "#374151",
       },
+      screens: {
+        xxl: "1800px",
+      },
     },
   },
   plugins: [],
