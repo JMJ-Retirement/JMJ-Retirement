@@ -1,5 +1,6 @@
 import LifeRaft from "../assets/newLiferaft.png";
 import Compass from "../assets/newCompass.png";
+import AnchorBlue from "../assets/newAnchor.png";
 
 const Leverage = () => {
   return (
@@ -37,7 +38,7 @@ const Leverage = () => {
           for every team member, ensuring individualized guidance and
           comprehensive understanding of their financial choices.
         </p>
-        <img className="w-32 sm:w-52 mx-auto" src={Compass} alt="compass" />
+        <img className="w-32 sm:w-40 mx-auto" src={AnchorBlue} alt="anchor" />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import Lighthouse from "../assets/houseoflight.png";
 import Binocular from "../assets/binocular.png";
 import Boat from "../assets/ship.png";
 import Hat from "../assets/hat.png";
-import AnchorBlue from "../assets/newAnchor.png";
+import Compass from "../assets/newCompass.png";
 
 const Roadmap = () => {
   return (
@@ -15,7 +15,7 @@ const Roadmap = () => {
         <div className="flex flex-col md:flex-row gap-8 md:gap-0 sm:px-10 md:px-0">
           <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Binocular} alt="grow" />
-            <div className="bg-[#1abec3] h-[83%] px-5 py-5">
+            <div className="bg-[#1abec3] h-[85%] px-5 py-5">
               <h3 className="text-xl pb-5">Initial Discovery</h3>
               <p>
                 Discovery is as easy as providing JMJ Retirement with your
@@ -26,7 +26,7 @@ const Roadmap = () => {
           </div>
           <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Boat} alt="grow" />
-            <div className="bg-[#d7b591] h-[83%] px-5 py-5">
+            <div className="bg-[#d7b591] h-[85%] px-5 py-5">
               <h3 className="text-xl pb-5">Focused Analysis</h3>
               <p className="mb-2">
                 At JMJ Retirement, we delve deep to illuminate every fee tied to
@@ -57,7 +57,7 @@ const Roadmap = () => {
           </div>
           <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Map} alt="grow" />
-            <div className="bg-[#03618f] h-[83%] px-5 py-5">
+            <div className="bg-[#03618f] h-[85%] px-5 py-5">
               <h3 className="text-xl pb-5">Informed Strategy</h3>
               <p>
                 JMJ Retirement provides incisive analysis and actionable
@@ -69,7 +69,7 @@ const Roadmap = () => {
           </div>
           <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Hat} alt="grow" />
-            <div className="bg-[#d7b591] h-[83%] px-5 py-5">
+            <div className="bg-[#d7b591] h-[85%] px-5 py-5">
               <h3 className="text-xl pb-5">Effortless Transition</h3>
               <p>
                 JMJ ensures any necessary adjustments are handled with ease,
@@ -79,7 +79,7 @@ const Roadmap = () => {
           </div>
           <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Lighthouse} alt="grow" />
-            <div className="bg-[#1abec3] h-[83%] px-5 py-5">
+            <div className="bg-[#1abec3] h-[85%] px-5 py-5">
               <h3 className="text-xl pb-5">Dedicated Oversight</h3>
               <p className="pb-2">
                 JMJ is equipped to act as your ERISA 3(21) and 3(38) fiduciary,
@@ -122,9 +122,9 @@ const Roadmap = () => {
           team.
         </p>
         <img
-          className="my-6 sm:my-8 w-32 sm:w-40 mx-auto"
-          src={AnchorBlue}
-          alt="Anchor"
+          className="my-6 sm:my-8 w-32 sm:w-52 mx-auto"
+          src={Compass}
+          alt="compass"
         />
       </div>
     </div>
