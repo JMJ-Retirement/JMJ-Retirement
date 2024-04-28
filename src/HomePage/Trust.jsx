@@ -5,20 +5,20 @@ import SeaShell from "../assets/seaShell.png";
 const Trust = () => {
   return (
     <div>
-      <div className="pt-6 sm:pt-0 pb-12 max-w-5xl mx-auto px-5">
-        <p className=" text-slate-500 text-xl pb-5">
+      <div className="mt-section max-w-5xl mx-auto px-5 lg:px-0">
+        <p className=" text-slate-500 text-xl mb-paragraph">
           What Helps Make a Great Retirement Plan?
         </p>
-        <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl pb-8">
+        <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl mb-paragraph">
           Trust your advisor to create an investment line-up that checks all the
           boxes, keeps you compliant, and empowers your employees to make good
           choices.
         </h1>
-        <p className="text-base sm:text-lg">
+        <p className="text-base sm:text-lg mb-paragraph">
           When it comes to selecting your plan’s investment line-up, JMJ
           Retirement adheres to the old adage less is more.
         </p>
-        <p className="mb-16 text-base sm:text-lg">Your employees:</p>
+        <p className="mb-paragraph text-base sm:text-lg">Your employees:</p>
         <div className="flex flex-col sm:flex-row gap-10">
           <div className="sm:w-1/3">
             <img
