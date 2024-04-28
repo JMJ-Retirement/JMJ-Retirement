@@ -9,12 +9,12 @@ const Advisor = () => {
   };
 
   return (
-    <div className="pt-4 sm:pt-12 pb-4">
-      <div className="pb-8 sm:pb-12 max-w-5xl mx-auto px-5">
-        <p className=" text-slate-500 text-lg sm:text-xl pb-5">
+    <div className="mt-section">
+      <div className="mb-paragraph max-w-5xl mx-auto px-5 lg:px-0">
+        <p className=" text-slate-500 text-lg sm:text-xl mb-paragraph">
           What Helps Make a Great Retirement Plan?
         </p>
-        <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl pb-6 sm:pb-8">
+        <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl mb-paragraph">
           Lean on your advisor to help reduce the fiduciary liability you face
           with regard to compliance testing and selecting, monitoring and
           managing plan investments.

@@ -11,6 +11,10 @@ export default {
       screens: {
         xxl: "1800px",
       },
+      spacing: {
+        section: "80px",
+        paragraph: "24px",
+      },
     },
   },
   plugins: [],

@@ -8,11 +8,11 @@ import Compass from "../assets/newCompass.png";
 const Roadmap = () => {
   return (
     <div>
-      <div className="pt-12 pb-4 max-w-5xl mx-auto px-5 md:px-0">
-        <h1 className="font-semibold text-center sm:text-left text-2xl sm:text-3xl pb-6 sm:pb-12 md:px-5 lg:px-0">
+      <div className="mt-section max-w-5xl mx-auto px-5 lg:px-0">
+        <h1 className="font-semibold text-center sm:text-left text-2xl sm:text-3xl pb-paragraph">
           OUR 5-STEP SERVICE ROADMAP
         </h1>
-        <div className="flex flex-col md:flex-row gap-8 md:gap-0 sm:px-10 md:px-0">
+        <div className="flex flex-col md:flex-row gap-paragraph md:gap-0 sm:px-10 md:px-0">
           <div className="md:w-1/5 text-white shadow-md">
             <img className="h-28 sm:h-36 mx-auto" src={Binocular} alt="grow" />
             <div className="bg-[#1abec3] h-[85%] px-5 py-5">
@@ -112,8 +112,8 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <p className="pt-4 sm:pt-8 md:mx-5 lg:mx-0">
-          <div className="font-semibold pb-5">
+        <p className="lg:mt-12 mt-paragraph lg:mx-0">
+          <div className="font-semibold mb-paragraph">
             Efficient Enhancements, Uninterrupted Workflow
           </div>{" "}
           Often, JMJ Retirement can propose initial enhancements that swiftly
@@ -122,7 +122,7 @@ const Roadmap = () => {
           team.
         </p>
         <img
-          className="my-6 sm:my-8 w-32 sm:w-52 mx-auto"
+          className="mt-paragraph w-32 sm:w-52 mx-auto"
           src={Compass}
           alt="compass"
         />

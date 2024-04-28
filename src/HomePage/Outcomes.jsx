@@ -10,7 +10,7 @@ const Outcomes = () => {
   };
 
   return (
-    <div className="pt-6 sm:pt-12 pb-4">
+    <div className="mt-section">
       <div className="flex flex-col">
         <img
           className="w-4/5 lg:w-auto outline max-w-5xl mx-auto z-10"
