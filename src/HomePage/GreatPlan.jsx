@@ -18,12 +18,12 @@ const GreatPlan = () => {
                 cost-effective, meeting our clients’ needs with precision and
                 care.
               </p>
-              <h4 className=" font-semibold text-lg sm:text-xl">
+              <h4 className="font-semibold text-lg sm:text-xl">
                 Let's Build Your Ideal Retirement Plan Together
               </h4>
             </div>
           </div>
-          <img className="w-40" src={Wheel} alt="setting sail" />
+          <img className="w-40" src={Wheel} alt="wheel" />
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@ const About = () => {
           <h3 className="font-semibold text-3xl sm:text-4xl md:text-5xl text-center md:text-left">
             About Jerome Jedynak
           </h3>
-          <p className="font-light">
+          <p className="text-base">
             With a steadfast presence in the financial services sector since
             2001 and a specialized focus on retirement planning since 2008,
             Jerome Jedynak stands as a distinguished{" "}

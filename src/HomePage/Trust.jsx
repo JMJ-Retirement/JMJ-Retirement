@@ -6,7 +6,7 @@ const Trust = () => {
   return (
     <div>
       <div className="mt-section max-w-5xl mx-auto px-5 lg:px-0">
-        <p className=" text-slate-500 text-xl mb-paragraph">
+        <p className=" text-slate-500 text-lg sm:text-xl mb-paragraph">
           What Helps Make a Great Retirement Plan?
         </p>
         <h1 className="font-semibold text-3xl sm:text-4xl md:text-5xl mb-paragraph">

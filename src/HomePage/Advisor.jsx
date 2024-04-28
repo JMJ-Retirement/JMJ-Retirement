@@ -1,9 +1,9 @@
-import Trees from "../assets/sail.jpg";
+// import Sail from "../assets/sail.jpg";
 import Fiduciary from "../assets/Fiduciary-chart.png";
 
-const Advisor = () => {
-  const TreePic = {
-    backgroundImage: `url(${Trees})`,
+const Advisor = ({ Sail }) => {
+  const SailPic = {
+    backgroundImage: `url(${Sail})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   };
@@ -44,7 +44,7 @@ const Advisor = () => {
         </p>
         <div
           className="h-[250px] mt-[-200px] z-0 sm:h-[400px] sm:mt-[-300px] md:bg-fixed"
-          style={TreePic}
+          style={SailPic}
         ></div>
       </div>
     </div>

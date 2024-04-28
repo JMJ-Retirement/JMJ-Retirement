@@ -10,7 +10,7 @@ const Understand = () => {
           cost.
         </h1>
         <p className="text-base sm:text-lg">
-          <div className="font-semibold mb-paragraph">
+          <div className="font-semibold mb-paragraph text-lg sm:text-xl">
             Transparent Costs, Incredible Value, And Save Time
           </div>{" "}
           JMJ Retirement dedicates itself to demystifying your plan’s costs and

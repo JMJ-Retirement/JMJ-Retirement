@@ -16,6 +16,9 @@ import Footer from "./Footer";
 // import Vid from "../assets/AlexTest.mp4";
 // import TestVid from "../assets/TestVid.mp4";
 import Beach from "../assets/header1.jpg";
+import Sail from "../assets/sail.jpg";
+import Sunset from "../assets/sunset.jpg";
+import Ocean from "../assets/ocean.jpg";
 import Logo from "../assets/TransparentLogo.png";
 import { useEffect, useState } from "react";
 import { MoonLoader } from "react-spinners";
@@ -23,10 +26,30 @@ import { MoonLoader } from "react-spinners";
 const HomePage = () => {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
 
+  // useEffect(() => {
+  //   const img = new Image();
+  //   img.src = Beach;
+  //   img.onload = () => setIsPageLoaded(true);
+  // }, []);
+
   useEffect(() => {
-    const img = new Image();
-    img.src = Beach;
-    img.onload = () => setIsPageLoaded(true);
+    const images = [Sunset, Ocean, Sail];
+    const imageLoadPromises = images.map((imageSrc) => {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.src = imageSrc;
+        img.onload = resolve;
+        img.onerror = reject;
+      });
+    });
+
+    Promise.all(imageLoadPromises)
+      .then(() => {
+        setIsPageLoaded(true);
+      })
+      .catch((error) => {
+        console.error("Error loading images:", error);
+      });
   }, []);
 
   return (
@@ -51,11 +74,11 @@ const HomePage = () => {
           <Partner />
           <Roadmap />
           <Understand />
-          <FeeBenchmark />
+          <FeeBenchmark Sunset={Sunset} />
           <EmbraceData />
-          <Outcomes />
+          <Outcomes Ocean={Ocean} />
           <Leverage />
-          <Advisor />
+          <Advisor Sail={Sail} />
           <Trust />
           <Compliance />
           <Footer />

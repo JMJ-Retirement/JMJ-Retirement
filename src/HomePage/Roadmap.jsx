@@ -8,7 +8,7 @@ import Compass from "../assets/newCompass.png";
 const Roadmap = () => {
   return (
     <div>
-      <div className="mt-section max-w-5xl mx-auto px-5 lg:px-0">
+      <div className="mt-paragraph max-w-5xl mx-auto px-5 lg:px-0">
         <h1 className="font-semibold text-center sm:text-left text-2xl sm:text-3xl pb-paragraph">
           OUR 5-STEP SERVICE ROADMAP
         </h1>
@@ -72,8 +72,8 @@ const Roadmap = () => {
             <div className="bg-[#d7b591] h-[85%] px-5 py-5">
               <h3 className="text-xl pb-5">Effortless Transition</h3>
               <p>
-                JMJ ensures any necessary adjustments are handled with ease,
-                prioritizing your convenience throughout the process.
+                JMJ Retirement ensures any necessary adjustments are handled
+                with ease, prioritizing your convenience throughout the process.
               </p>
             </div>
           </div>
@@ -82,8 +82,8 @@ const Roadmap = () => {
             <div className="bg-[#1abec3] h-[85%] px-5 py-5">
               <h3 className="text-xl pb-5">Dedicated Oversight</h3>
               <p className="pb-2">
-                JMJ is equipped to act as your ERISA 3(21) and 3(38) fiduciary,
-                ensuring:
+                JMJ Retirement is equipped to act as your ERISA 3(21) and 3(38)
+                fiduciary, ensuring:
               </p>
               <ul className="list-disc">
                 <li className="mb-2">
@@ -112,8 +112,8 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <p className="lg:mt-12 mt-paragraph lg:mx-0">
-          <div className="font-semibold mb-paragraph">
+        <p className="lg:mt-12 mt-paragraph lg:mx-0 text-base sm:text-lg">
+          <div className="font-semibold mb-paragraph text-lg sm:text-xl">
             Efficient Enhancements, Uninterrupted Workflow
           </div>{" "}
           Often, JMJ Retirement can propose initial enhancements that swiftly
