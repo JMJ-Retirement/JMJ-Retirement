@@ -10,7 +10,7 @@ const Partner = () => {
           work with
         </h1>
         <p className="text-base sm:text-lg">
-          <div className="font-semibold text-xl pb-paragraph">
+          <div className="font-semibold text-lg sm:text-xl pb-paragraph">
             Effortless Engagement, Focused on You
           </div>
           At JMJ Retirement Solutions, we streamline your experience. Our goal

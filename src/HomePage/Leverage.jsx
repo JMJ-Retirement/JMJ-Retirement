@@ -14,7 +14,7 @@ const Leverage = () => {
               Empower Financial Well-Being with Actionable Guidance
             </h1>
             {/* <div className="flex flex-col-reverse items-center md:items-start md:flex-row gap-6 md:gap-14 pb-6 md:pb-10"> */}
-            <p className="">
+            <p className="text-base sm:text-lg">
               JMJ Retirement offers a financial wellness program that addresses
               your employees’ immediate financial concerns with practical
               solutions. Whether it’s devising strategies to eliminate credit
@@ -27,7 +27,7 @@ const Leverage = () => {
           </div>
           <img className="w-32 sm:w-44" src={LifeRaft} alt="Life Raft" />
         </div>
-        <p className="mb-paragraph">
+        <p className="mb-paragraph text-base sm:text-lg">
           Our wellness program not only provides actionable solutions to your
           employees’ current financial questions but also includes{" "}
           <div className="font-semibold inline">
