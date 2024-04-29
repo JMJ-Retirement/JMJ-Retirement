@@ -116,10 +116,9 @@ const Roadmap = () => {
           <div className="font-semibold mb-paragraph text-lg sm:text-xl">
             Efficient Enhancements, Uninterrupted Workflow
           </div>{" "}
-          Often, JMJ Retirement can propose initial enhancements that swiftly
-          elevate your plan’s performance, all without the need for a
-          recordkeeper switch, ensuring a smooth experience for you and your
-          team.
+          Often, JMJ Retirement can propose initial changes that swiftly elevate
+          your plan’s health, all without the need for a record-keeper switch,
+          ensuring a smooth experience for you and your team.
         </p>
         <img
           className="mt-paragraph w-32 sm:w-52 mx-auto"

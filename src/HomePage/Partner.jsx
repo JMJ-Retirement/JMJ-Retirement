@@ -14,8 +14,7 @@ const Partner = () => {
             Effortless Engagement, Focused on You
           </div>
           At JMJ Retirement Solutions, we streamline your experience. Our goal
-          is simple: understand and meet your plan’s needs with ease. Our
-          primary focus is to thoroughly understand your plan’s unique needs.
+          is simple: understand and meet your plan’s needs with ease.
         </p>
       </div>
     </div>

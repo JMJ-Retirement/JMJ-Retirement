@@ -12,12 +12,11 @@ const EmbraceData = () => {
         </h1>
         <div className="flex items-center sm:items-start flex-col sm:flex-row gap-paragraph">
           <p className="text-base sm:text-lg">
-            JMJ Retirement encourages a proactive embrace of reporting and
-            analytics as the compass for plan success and continuous
-            improvement. Our Plan Review serves as a comprehensive “report
-            card,” detailing your retirement plan’s multifaceted aspects and,
-            most importantly, providing a clear metric for tracking strides
-            toward excellence.<br></br>
+            JMJ Retirement embraces data and analytics as the compass for your
+            plan’s success and continuous improvement. Our Plan Review serves as
+            a comprehensive “report card,” detailing your retirement plan’s
+            health and, most importantly, providing clear metrics for tracking
+            strides forward.<br></br>
             <br></br>
             Central to our Plan Reviews is the assessment of employee
             interaction with the plan—vital in gauging our effectiveness in

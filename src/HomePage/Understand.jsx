@@ -14,9 +14,9 @@ const Understand = () => {
             Transparent Costs, Incredible Value, And Save Time
           </div>{" "}
           JMJ Retirement dedicates itself to demystifying your plan’s costs and
-          fees, presenting them in an easily comprehensible manner. Our ongoing
-          mission is to align your plan’s expenses with the essential services
-          and value that support you and your employees’ needs.
+          fees, presenting them in an easily comprehensible manner. We give you
+          100% fee transparency and benchmark your plan against other similar
+          plans to ensure your plan is receiving the best value.
         </p>
       </div>
     </div>
