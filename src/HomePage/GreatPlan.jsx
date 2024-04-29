@@ -15,8 +15,8 @@ const GreatPlan = () => {
                 At JMJ Retirement Solutions, we believe a great retirement plan
                 ensures successful futures for employees. Our commitment is to
                 provide plans that are easy to manage, compliant, and
-                cost-effective, meeting our clients’ needs with precision and
-                care.
+                cost-effective, with personal service with one point of contact
+                for all your retirement plan needs.
               </p>
               <h4 className="font-semibold text-lg sm:text-xl">
                 Let's Build Your Ideal Retirement Plan Together

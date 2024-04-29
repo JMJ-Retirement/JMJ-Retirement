@@ -21,24 +21,18 @@ const Leverage = () => {
               card debt, planning for children’s college funds, creating student
               loan repayment plans, understanding insurance options, evaluating
               retirement plan loans, or preparing for a home purchase, we’re
-              here to navigate you through financial challenges with expert
-              advice and support.
+              here to navigate you through financial challenges with
+              professional advice and support.
             </p>
           </div>
           <img className="w-32 sm:w-44" src={LifeRaft} alt="Life Raft" />
         </div>
         <p className="mb-paragraph text-base sm:text-lg">
           Our wellness program not only provides actionable solutions to your
-          employees’ current financial questions but also includes{" "}
-          <div className="font-semibold inline">
-            personal one-on-one meetings
-          </div>{" "}
-          and{" "}
-          <div className="font-semibold inline">
-            in-person enrollment sessions
-          </div>{" "}
-          for every team member, ensuring individualized guidance and
-          comprehensive understanding of their financial choices.
+          employees’ current financial questions but also includes personal
+          one-on-one meetings and in-person enrollment sessions for every team
+          member, ensuring individualized guidance and comprehensive
+          understanding of their financial choices.
         </p>
         <img className="w-32 sm:w-40 mx-auto" src={AnchorBlue} alt="anchor" />
       </div>

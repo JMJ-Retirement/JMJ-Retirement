@@ -21,9 +21,8 @@ const FeeBenchmark = ({ Sunset }) => {
           alt="Fee Benchmark"
         />
         <p className="max-w-5xl mx-auto z-10 bg-black p-5 mt-8 sm:text-xl text-base text-white italic bg-opacity-80">
-          JMJ Retirement offers transparent clarity to our clients, ensuring
-          they clearly understand the services provided and their associated
-          costs.
+          JMJ Retirement believes in cutting out all the middlemen and excess
+          fees often times lowering costs by over 50%.
         </p>
         <div
           className="h-[300px] mt-[-250px] sm:h-[400px] md:h-[500px] sm:mt-[-300px] md:mt-[-400px] z-0 md:bg-fixed"

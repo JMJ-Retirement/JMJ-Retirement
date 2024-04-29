@@ -17,9 +17,9 @@ const Outcomes = ({ Ocean }) => {
           src={Demograghics}
           alt="Fee Benchmark"
         />
-        <p className="max-w-5xl mx-auto z-10 bg-[#73a6d2] p-5 mt-8 sm:text-xl text-base text-white italic bg-opacity-80">
-          JMJ Retirement advocates for embracing reporting and analytics
-          proactively to guide plan success and ongoing enhancement.
+        <p className="max-w-5xl lg:w-[1024px] md:w-full  mx-auto z-10 bg-[#73a6d2] p-5 mt-8 sm:text-xl text-base text-white italic bg-opacity-80">
+          JMJ Retirement uses data to proactively guide your plan and make
+          ongoing improvements.
         </p>
         <div
           className="h-[300px] mt-[-250px] sm:h-[400px] md:h-[600px] sm:mt-[-300px] md:mt-[-500px] z-0 md:bg-fixed"

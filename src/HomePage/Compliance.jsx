@@ -5,13 +5,40 @@ const Compliance = () => {
         <div className="flex items-center flex-col gap-2 text-xs md:text-sm">
           <p className="text-center">
             Check the background of this advisor on{" "}
-            <span className="font-semibold">FINRA's BrokerCheck.</span>
+            <span>
+              <a
+                href="https://brokercheck.finra.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold underline"
+              >
+                FINRA's BrokerCheck
+              </a>
+            </span>
           </p>
-          <p className="font-semibold text-center">
-            Securities and Advisory Services Offered Through Harbour
-            Investments, Inc. | Member FINRA and SIPC
+          <p className="text-center">
+            Securities and Advisory Services Offered Through{" "}
+            <span className="font-semibold">Harbour Investments, Inc.</span> |
+            Member{" "}
+            <a
+              href="https://www.finra.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold underline"
+            >
+              FINRA
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://www.sipc.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold underline"
+            >
+              SIPC
+            </a>
           </p>
-          <p className="font-semibold text-center">
+          <p className="text-center">
             Securities License in IL, CA, NC, FL, SC, and WI
           </p>
         </div>
