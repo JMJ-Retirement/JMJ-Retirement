@@ -16,10 +16,23 @@ const Header = () => {
         <source src={Video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="bg-[#aabebe] h-24 sm:h-28 w-full flex items-center justify-center">
+      <div className="bg-[#aabebe] h-24 sm:h-28 w-full flex flex-col items-center justify-center">
         <h3 className="font-semibold text-gray-800 text-sm sm:text-base md:text-2xl lg:text-3xl text-center px-5 sm:px-0">
           We Help Businesses Build and Manage Great Retirement Plans
         </h3>
+      </div>
+      <div className="bg-[#cbd8d7] h-16 w-full flex flex-col items-center justify-center">
+        <p className="text-sm md:text-xl lg:text-2xl font-semibold text-gray-800">
+          Schedule a 30 minute meeting at{" "}
+          <a
+            href="https://calendly.com/jjedynak/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold underline transition-all text-gray-800 hover:text-gray-600"
+          >
+            Calendly
+          </a>
+        </p>
       </div>
       <div className="flex w-full flex-col items-center justify-center gap-3 bg-[#d5e1e2] py-6 text-sm sm:flex-row sm:gap-7 md:gap-16 md:text-base lg:gap-32">
         <div className="flex items-center gap-2 font-bold">
