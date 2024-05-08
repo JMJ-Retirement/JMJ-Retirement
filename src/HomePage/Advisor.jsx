@@ -26,10 +26,10 @@ const Advisor = ({ Sail }) => {
           meticulously researching, choosing, and supervising funds, making
           adjustments as needed to refine your plan’s portfolio. We distinguish
           our comprehensive fiduciary services from those of non-fiduciary
-          brokers or salespeople, ensuring you receive dedicated expertise and
-          support. We go above and beyond most advisors by actually assisting
-          with the compliance test and taking as much of that process off your
-          hands.
+          brokers or salespeople, ensuring you receive dedicated professionalism
+          and support. We go above and beyond most advisors by actually
+          assisting with the compliance test and taking as much of that process
+          off your hands.
         </p>
       </div>
       <div className="flex flex-col">
