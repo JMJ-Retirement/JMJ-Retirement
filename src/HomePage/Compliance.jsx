@@ -39,7 +39,7 @@ const Compliance = () => {
             </a>
           </p>
           <p className="text-center">
-            Securities License in IL, CA, NC, FL, SC, and WI
+            Securities licensed in CA, CO, FL, IL, NC, OH, SC, WI
           </p>
         </div>
       </div>
