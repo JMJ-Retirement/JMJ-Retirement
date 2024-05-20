@@ -2,11 +2,13 @@ import Video from "../assets/sailJMJ.mp4";
 import phone from "../assets/phone.svg";
 import email from "../assets/email.svg";
 import pin from "../assets/pin.png";
+import placeHolder from "../assets/placeholderimg.png";
 
 const Header = () => {
   return (
     <div className="relative">
       <video
+        placeholder={placeHolder}
         autoPlay
         loop
         muted
