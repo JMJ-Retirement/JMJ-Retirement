@@ -37,7 +37,7 @@ const About = () => {
             <br></br>
             With a steadfast presence in the financial services sector since
             2001, with a specialized focus on 401(k) plans since 2008. Jerome
-            stewards over $50 million in assets, delivering bespoke retirement
+            stewards over $75 million in assets, delivering bespoke retirement
             strategies for small businesses and owners throughout the Milwaukee
             region.
             <br></br>
