@@ -41,6 +41,16 @@ const Compliance = () => {
           <p className="text-center">
             Securities licensed in CA, CO, FL, IL, NC, OH, SC, WI
           </p>
+          <p className="text-center">
+            <a
+              href="https://harbourinv.com/wp-content/uploads/2026/05/2026-Harbour-ADV-Form-CRS.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold underline"
+            >
+              Harbour's Form CRS
+            </a>
+          </p>
         </div>
       </div>
     </div>
